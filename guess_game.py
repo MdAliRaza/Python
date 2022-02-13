@@ -71,7 +71,9 @@ options = [['A. Guido Van Rossum', 'B. Elon Musk', 'C. James Gosling', 'D. Bjarn
            ['A. india', 'B. brazil', 'C. netherlands', 'D. usa'],
            ['A. .py', 'B. .python', 'C. .p', 'D. None of the Above']]
 
+
 new_game()
 play_again()
+
 print()
 print('Thank u for playing')
