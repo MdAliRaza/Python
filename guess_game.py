@@ -1,3 +1,15 @@
+questions = {
+    "1> Who created python": "A",
+    "2> It was created in year": "B",
+    "3> Python created in country": "C",
+    "4> Extention of python": "A"
+}
+options = [['A. Guido Van Rossum', 'B. Elon Musk', 'C. James Gosling', 'D. Bjarne Stroustrup'],
+           ['A. 1899', 'B. 1989', 'C. 1991', 'D. 1997'],
+           ['A. india', 'B. brazil', 'C. netherlands', 'D. usa'],
+           ['A. .py', 'B. .python', 'C. .p', 'D. None of the Above']]
+
+
 # ------------------------#
 def new_game():
     guesses = []
@@ -59,17 +71,6 @@ def play_again():
 
 # ------------------------#
 
-
-questions = {
-    "1> Who created python": "A",
-    "2> It was created in year": "B",
-    "3> Python created in country": "C",
-    "4> Extention of python": "A"
-}
-options = [['A. Guido Van Rossum', 'B. Elon Musk', 'C. James Gosling', 'D. Bjarne Stroustrup'],
-           ['A. 1899', 'B. 1989', 'C. 1991', 'D. 1997'],
-           ['A. india', 'B. brazil', 'C. netherlands', 'D. usa'],
-           ['A. .py', 'B. .python', 'C. .p', 'D. None of the Above']]
 
 
 new_game()
