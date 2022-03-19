@@ -11,6 +11,7 @@ options = [['A. Guido Van Rossum', 'B. Elon Musk', 'C. James Gosling', 'D. Bjarn
 
 
 # ------------------------#
+
 def new_game():
     guesses = []
     correct_guess = 0
@@ -30,6 +31,7 @@ def new_game():
 
 
 # ------------------------#
+
 def check_answer(answer, guess):
     if answer == guess:
         print('CORRECT')
@@ -40,6 +42,7 @@ def check_answer(answer, guess):
 
 
 # ------------------------#
+
 def display_score(correct_guess, guesses):
     print('---------')
     print('RESULTS')
@@ -60,6 +63,7 @@ def display_score(correct_guess, guesses):
 
 
 # ------------------------#
+
 def play_again():
     print()
     while True:
