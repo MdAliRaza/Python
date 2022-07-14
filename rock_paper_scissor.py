@@ -1,3 +1,5 @@
+""" Rock Paper Scissor Game Code """
+
 import random 
 choices = ['rock', 'paper', 'scissor']
 computer = random.choice(choices)
