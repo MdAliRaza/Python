@@ -1,5 +1,7 @@
 command = ""
+
 started = False
+
 while True:
     command = input(">").lower()
     if command == "start":
@@ -24,4 +26,5 @@ quit = to quit the game
         break
     else:
         print("Sorry I don't understand that type 'help' for guidelines")
+
 print('Thank you for Playing')
