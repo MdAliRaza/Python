@@ -2,6 +2,7 @@ print('''
 It's a Guess Game you have to guess for secret number between 0-10
 You have 3 chances.
 ''')
+
 secret_no = 9
 guess_limit = 3
 guess_count = 0
